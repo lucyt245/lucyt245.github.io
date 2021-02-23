@@ -1,0 +1,51 @@
+body {
+	background: #ffffff;
+}
+
+h2 {
+  font-family: monospace;
+  font-size: 20px;
+}
+
+p, li {
+  font-size: 15px;
+  font-family: monospace;
+}
+
+nav ul {
+	padding: 0;
+	background-color: #010e80;
+	display: table;
+	width: 100%;
+}
+
+ul a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 30px;
+}
+
+ol a {
+  font-size: 15px;
+  font-family: monospace;
+}
+
+.hobbies li a {
+  font-size: 15px;
+  font-family: monospace;
+}
+
+ul a:hover {
+	background-color: #111;
+}
+
+ol a:hover {
+  background-color: #5db3d0
+}
+
+footer {
+  padding-left: 40%;
+	width: 40%;
+	bottom: -100px;
+}
